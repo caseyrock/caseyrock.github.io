@@ -8,8 +8,12 @@ nav ul{
 	list-style-type: none;
 	margin:0;
 	padding:0;
+	width: 150px;
+	background-color: #flflfl;
 }
-nav ul{
+nav ul li a{
+	display: block;
+	width: 150px;
 	
 }
 h1{
@@ -23,8 +27,10 @@ h1{
 	padding-top: 50px;
 }
 #maincontent {
-	margin-left: 200px;
+	margin-left: 150px;
 	margin-right: 75px;
+	padding-left:10px;
+	text-transform: none;
 }
 
 .centerme {
