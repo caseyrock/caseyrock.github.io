@@ -4,6 +4,14 @@ body{
 	color: navy;
 	background-color: #2D3A9A
 }
+nav ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+nav ul{
+	
+}
 h1{
 	background-color: #E08C2A;
 	text-align: center;
@@ -26,5 +34,3 @@ h1{
 }
 
 
-<link rel="stylesheet" href='css/main.css'>
-</head>
