@@ -2,7 +2,7 @@
 body{
 	font-size: 1em
 	color: navy;
-	background-color: #2D3A9A
+	background-color: #38CECE
 }
 nav ul{
 	list-style-type: none;
@@ -29,14 +29,15 @@ nav ul li a:hover{
 	background-color: #4CAF50
 }
 h1{
+	font-family: 'Indie Flower', cursive;
 	background-color: #E08C2A;
 	text-align: center;
 	border: 3px;
 	border-style: dashed;
-	margin-left: 100px;
-	margin-right: 100px;
-	padding-bottom: 50px;
-	padding-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 5%;
+	padding-top: 5%;
 }
 #maincontent {
 	margin-left: 150px;
@@ -54,6 +55,10 @@ h1{
 @media screen and (max-width:600){
 	nav{
 		display: none;
+	}
+	#maincontent {
+	margin-left: 5%;
+	margin-right: 5%;
 	}
 }
 
