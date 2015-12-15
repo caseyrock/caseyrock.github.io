@@ -1,20 +1,23 @@
 
 body{
 	font-size: 1em;
-	background-color: #38CECE;
+	background-color: #1DCDD5;
+}
+intro{
+	text-align: center;
 }
 nav ul{
 	list-style-type: none;
 	margin:0;
 	padding:0;
 	width: 150px;
-	background-color: #flflfl;
+	background-color: #2ED8B7;
 	position: fixed;
 }
 nav ul li a{
 	display: block;
 	text-decoration: none;
-	color: #000;
+	color: #2149CB;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	padding-left: 16px;
@@ -25,14 +28,15 @@ nav ul li a:hover{
 	color: #fff;
 }
 .active{
-	background-color: #4CAF50
+	background-color: red;
 }
 h1{
 	font-family: 'Indie Flower', cursive;
-	background-color: #E08C2A;
+	background-color: #2ED8B7;
 	text-align: center;
 	border: 3px;
 	border-style: dashed;
+	border-color: #01C3CC;
 	margin-left: 10%;
 	margin-right: 10%;
 	padding-bottom: 5%;
