@@ -51,23 +51,21 @@ h1{
 
 #mainContent {
 	font-family: 'Roboto Condensed', sans-serif;
-	margin-left: 150px;
+	margin-left: 175px;
 	margin-right: 75px;
 	padding-left:10px;
 	text-transform: none;
 }
 
-
-.centerme {
+.centerme{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	padding-bottom: 5%;
+	padding-top: 5%;
 	max-width:50%;
 	max-height: 50%;
 	height: auto;
