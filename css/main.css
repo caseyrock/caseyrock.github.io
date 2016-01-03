@@ -1,7 +1,11 @@
 
 body{
 	font-size: 1em;
-	background-color: #1DCDD5;
+	background: #1DCDD5;     
+    background: -webkit-linear-gradient(-120deg, #B092F2, #2ED8B7); 
+    background: -o-linear-gradient(-120deg, #B092F2, #2ED8B7); 
+    background: -moz-linear-gradient(-120deg, #B092F2, #2ED8B7); 
+    background: linear-gradient(-120deg, #B092F2, #2ED8B7); 
 	color: #5B29C8;
 }
 
@@ -10,38 +14,38 @@ intro{
 }
 
 #twocolumns{
-	-webkit-column-count: 2; /* Chrome, Safari, Opera */
-    -moz-column-count: 2; /* Firefox */
+	-webkit-column-count: 2; 
+    -moz-column-count: 2; 
     column-count: 2;
-    -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 100px; /* Firefox */
+    -webkit-column-gap: 100px; 
+    -moz-column-gap: 100px; 
     column-gap: 100px;
-    -webkit-column-rule-style: dashed; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: dashed; /* Firefox */
+    -webkit-column-rule-style: dashed; 
+    -moz-column-rule-style: dashed; 
     column-rule-style: dashed;
-	-webkit-column-rule-width: 3px; /* Chrome, Safari, Opera */
-    -moz-column-rule-width: 3px; /* Firefox */
+	-webkit-column-rule-width: 3px; 
+    -moz-column-rule-width: 3px; 
     column-rule-width: 3px;
-	-webkit-column-rule-color: #03A9B1; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: #03A9B1; /* Firefox */
+	-webkit-column-rule-color: #03A9B1; 
+    -moz-column-rule-color: #03A9B1; 
     column-rule-color: #03A9B1;
 }
 
 #threecolumns{
-	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
+	-webkit-column-count: 3; 
+    -moz-column-count: 3; 
     column-count: 3;
-    -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 100px; /* Firefox */
+    -webkit-column-gap: 100px; 
+    -moz-column-gap: 100px; 
     column-gap: 100px;
-    -webkit-column-rule-style: dashed; /* Chrome, Safari, Opera */
-    -moz-column-rule-style: dashed; /* Firefox */
+    -webkit-column-rule-style: dashed; 
+    -moz-column-rule-style: dashed; 
     column-rule-style: dashed;
-	-webkit-column-rule-width: 3px; /* Chrome, Safari, Opera */
-    -moz-column-rule-width: 3px; /* Firefox */
+	-webkit-column-rule-width: 3px; 
+    -moz-column-rule-width: 3px; 
     column-rule-width: 3px;
-	-webkit-column-rule-color: #03A9B1; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: #03A9B1; /* Firefox */
+	-webkit-column-rule-color: #03A9B1; 
+    -moz-column-rule-color: #03A9B1; 
     column-rule-color: #03A9B1;
 }
 
@@ -51,10 +55,11 @@ nav ul{
 	padding:0;
 	width: 150px;
 	height: auto;
-	background-color: #2ED8B7;
+	background-color: #1DCDD5;
 	position: fixed;
+	border: 2px;
 	border-style: dashed;
-	border-color: #03A9B1;
+	border-color: #7749DA;
 	border-radius: 5px;
 }
 
@@ -79,18 +84,22 @@ nav ul li a:hover{
 
 h1{
 	font-family: 'Roboto Condensed', sans-serif;
-	background-color: #2ED8B7;
+	background-color: #1DCDD5;
 	text-align: center;
-	border: 3px;
+	border: 2px;
 	border-style: dashed;
-	border-color: #03A9B1;
+	border-color: #7749DA;
 	border-radius: 10px;
 	margin-left: 15%;
 	margin-right: 15%;
 	padding-bottom: 5%;
 	padding-top: 5%;
-	text-shadow: 2px 2px 20px #D5C4FA, 1px 1px 50px #B092F2, 2px 2px 50px #7749DA;
+	text-shadow: 2px 2px 20px #D5C4FA, 1px 1px 15px #B092F2, 2px 2px 15px #7749DA;
 	}
+
+h2{
+	text-shadow: 1px 1px 2px #7749DA;
+}
 
 #mainContent {
 	font-family: 'Roboto Condensed', sans-serif;
