@@ -8,18 +8,39 @@ intro{
 }
 
 #twocolumns{
-    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
     column-count: 2;
-    -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
-    column-gap: 20px;
-    -webkit-column-rule: 2px dashed #2ED8B7; /* Chrome, Safari, Opera */
-    column-rule: 2px dashed #2ED8B7;
+    -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 100px; /* Firefox */
+    column-gap: 100px;
+    -webkit-column-rule-style: dashed; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: dashed; /* Firefox */
+    column-rule-style: dashed;
+	-webkit-column-rule-width: 3px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 3px; /* Firefox */
+    column-rule-width: 3px;
+	-webkit-column-rule-color: #03A9B1; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: #03A9B1; /* Firefox */
+    column-rule-color: #03A9B1;
 }
 
 #threecolumns{
-    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+    -webkit-column-gap: 100px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 100px; /* Firefox */
+    column-gap: 100px;
+    -webkit-column-rule-style: dashed; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: dashed; /* Firefox */
+    column-rule-style: dashed;
+	-webkit-column-rule-width: 3px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 3px; /* Firefox */
+    column-rule-width: 3px;
+	-webkit-column-rule-color: #03A9B1; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: #03A9B1; /* Firefox */
+    column-rule-color: #03A9B1;
 }
 
 nav ul{
