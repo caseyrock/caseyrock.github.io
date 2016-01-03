@@ -20,15 +20,9 @@ intro{
     -webkit-column-gap: 100px; 
     -moz-column-gap: 100px; 
     column-gap: 100px;
-    -webkit-column-rule-style: dashed; 
-    -moz-column-rule-style: dashed; 
-    column-rule-style: dashed;
-	-webkit-column-rule-width: 3px; 
-    -moz-column-rule-width: 3px; 
-    column-rule-width: 3px;
-	-webkit-column-rule-color: #4E97EF; 
-    -moz-column-rule-color: #4E97EF; 
-    column-rule-color: #4E97EF;
+	-webkit-column-rule: 2px dashed #7749DA; 
+    -moz-column-rule: 2px dashed #7749DA; 
+    column-rule: 2px dashed #7749DA;
 }
 
 #threecolumns{
@@ -38,15 +32,9 @@ intro{
     -webkit-column-gap: 100px; 
     -moz-column-gap: 100px; 
     column-gap: 100px;
-    -webkit-column-rule-style: dashed; 
-    -moz-column-rule-style: dashed; 
-    column-rule-style: dashed;
-	-webkit-column-rule-width: 3px; 
-    -moz-column-rule-width: 3px; 
-    column-rule-width: 3px;
-	-webkit-column-rule-color: #4E97EF; 
-    -moz-column-rule-color: #4E97EF; 
-    column-rule-color: #4E97EF;
+	-webkit-column-rule: 2px dashed #7749DA; 
+    -moz-column-rule: 2px dashed #7749DA; 
+    column-rule: 2px dashed #7749DA;
 }
 
 nav ul{
