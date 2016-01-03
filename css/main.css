@@ -26,9 +26,9 @@ intro{
 	-webkit-column-rule-width: 3px; 
     -moz-column-rule-width: 3px; 
     column-rule-width: 3px;
-	-webkit-column-rule-color: #03A9B1; 
-    -moz-column-rule-color: #03A9B1; 
-    column-rule-color: #03A9B1;
+	-webkit-column-rule-color: #4E97EF; 
+    -moz-column-rule-color: #4E97EF; 
+    column-rule-color: #4E97EF;
 }
 
 #threecolumns{
@@ -44,9 +44,9 @@ intro{
 	-webkit-column-rule-width: 3px; 
     -moz-column-rule-width: 3px; 
     column-rule-width: 3px;
-	-webkit-column-rule-color: #03A9B1; 
-    -moz-column-rule-color: #03A9B1; 
-    column-rule-color: #03A9B1;
+	-webkit-column-rule-color: #4E97EF; 
+    -moz-column-rule-color: #4E97EF; 
+    column-rule-color: #4E97EF;
 }
 
 nav ul{
